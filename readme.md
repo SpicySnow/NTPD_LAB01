@@ -197,3 +197,14 @@ Jak sobie radzić:
 
 ## 7. Wnioski
 
+- Zastosowanie algorytmu `LogisticRegression` z biblioteki `scikit-learn` pokazało, że nawet prosty model może osiągać dobre wyniki klasyfikacji dla odpowiednio przygotowanych danych.
+
+- Obliczenie metryk takich jak accuracy, precision, recall i F1-score umożliwiło ocenę jakości modelu oraz lepsze zrozumienie jego skuteczności dla poszczególnych klas.
+
+- Macierz pomyłek pozwoliła zauważyć, że model może mylić niektóre klasy częściej niż inne, co jest ważne przy analizie wyników klasyfikacji.
+
+- Zapisanie modelu do pliku przy użyciu biblioteki joblib umożliwia jego ponowne wykorzystanie bez konieczności ponownego trenowania.
+
+- Wersjonowanie modelu przy użyciu systemu Git i konwencji Semantic Versioning pozwala łatwiej zarządzać kolejnymi wersjami modelu i śledzić wprowadzone zmiany.
+
+- Ćwiczenie pokazało również, że istnieją istotne różnice między środowiskiem deweloperskim a produkcyjnym, szczególnie w zakresie stabilności, monitorowania działania modelu, zarządzania zależnościami oraz automatyzacji wdrożeń.
