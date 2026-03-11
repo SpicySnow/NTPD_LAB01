@@ -195,7 +195,7 @@ Jak sobie radzić:
 - prowadzić logowanie dostępu i audyt
 
 
-## 7. Wnioski
+## Wnioski
 
 - Zastosowanie algorytmu `LogisticRegression` z biblioteki `scikit-learn` pokazało, że nawet prosty model może osiągać dobre wyniki klasyfikacji dla odpowiednio przygotowanych danych.
 
